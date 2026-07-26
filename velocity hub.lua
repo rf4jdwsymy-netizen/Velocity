@@ -736,7 +736,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		AddThemeObject(MakeElement("Stroke"), "Stroke")
 	})
 
-	local MainWindow = SetChildren(SetProps(MakeElement("RoundImageFrame", Color3.fromRGB(255, 255, 255), 0, 10, "rbxassetid://118621726048519"), {
+	local MainWindow = SetChildren(SetProps(MakeElement("RoundImageFrame", Color3.fromRGB(255, 255, 255), 0, 10, "rbxassetid://137482491264549"), {
 		Parent = Orion,
 		Position = UDim2.new(0.5, -307, 0.5, -172),
 		Size = UDim2.new(0, 615, 0, 344),
