@@ -15,7 +15,7 @@ local OrionLib = {
 		Default = {
 			Main = Color3.fromRGB(0, 0, 0),
 			Second = Color3.fromRGB(12, 12, 12),
-			Stroke = Color3.fromRGB(170, 85, 255),
+			Stroke = Color3.fromRGB(255, 255, 0),
 			Divider = Color3.fromRGB(45, 45, 45),
 			Text = Color3.fromRGB(255, 255, 255),
 			TextDark = Color3.fromRGB(170, 170, 170)
@@ -461,7 +461,7 @@ function OrionLib:MakeNotification(NotificationConfig)
 
 		local NotificationFrame = Create("ImageLabel", {
 			Parent = NotificationParent,
-			Image = "rbxassetid://108700588681395",
+			Image = "rbxassetid://129099363794409",
 			ScaleType = Enum.ScaleType.Crop,
 			ImageTransparency = 0.2,
 			BackgroundTransparency = 1,
@@ -560,7 +560,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
 	WindowConfig.ShowIcon = WindowConfig.ShowIcon or false
 	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://8834748103"
-	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://112287999943506"
+	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://"
 	OrionLib.Folder = WindowConfig.ConfigFolder
 	OrionLib.SaveCfg = WindowConfig.SaveConfig
 	if WindowConfig.SaveConfig then
