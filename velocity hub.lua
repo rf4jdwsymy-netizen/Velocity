@@ -580,7 +580,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	MobileOpenButton.BackgroundColor3 = Color3.new(1, 1, 1)
 	MobileOpenButton.BorderSizePixel = 0
 	MobileOpenButton.BorderColor3 = Color3.new(0, 0, 0)
-	MobileOpenButton.Image = "rbxassetid://125773756452730"
+	MobileOpenButton.Image = "rbxassetid://137580611142371"
 	MobileOpenButton.Visible = false
 	MobileOpenButton.Parent = Orion
 	local _Corner = Instance.new("UICorner")
