@@ -580,7 +580,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	MobileOpenButton.BackgroundColor3 = Color3.new(1, 1, 1)
 	MobileOpenButton.BorderSizePixel = 0
 	MobileOpenButton.BorderColor3 = Color3.new(0, 0, 0)
-	MobileOpenButton.Image = "rbxassetid://137580611142371"
+	MobileOpenButton.Image = "rbxassetid://129099363794409"
 	MobileOpenButton.Visible = false
 	MobileOpenButton.Parent = Orion
 	local _Corner = Instance.new("UICorner")
@@ -697,7 +697,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		BackgroundTransparency = 0.85
 	}), "Second")
 
-	local TitleIcon = SetProps(MakeElement("Image", "rbxassetid://112287999943506"), {
+	local TitleIcon = SetProps(MakeElement("Image", "rbxassetid://93393136491199"), {
     Size = UDim2.new(0, 28, 0, 28),
     Position = UDim2.new(0, 12, 0.5, -14),
     ZIndex = 5,
