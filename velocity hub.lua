@@ -461,7 +461,7 @@ function OrionLib:MakeNotification(NotificationConfig)
 
 		local NotificationFrame = Create("ImageLabel", {
 			Parent = NotificationParent,
-			Image = "rbxassetid://102725651047182",
+			Image = "rbxassetid://108700588681395",
 			ScaleType = Enum.ScaleType.Crop,
 			ImageTransparency = 0.2,
 			BackgroundTransparency = 1,
@@ -560,7 +560,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
 	WindowConfig.ShowIcon = WindowConfig.ShowIcon or false
 	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://8834748103"
-	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://90369054156879"
+	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://112287999943506"
 	OrionLib.Folder = WindowConfig.ConfigFolder
 	OrionLib.SaveCfg = WindowConfig.SaveConfig
 	if WindowConfig.SaveConfig then
