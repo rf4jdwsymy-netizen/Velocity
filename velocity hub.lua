@@ -697,7 +697,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		BackgroundTransparency = 0.85
 	}), "Second")
 
-	local TitleIcon = SetProps(MakeElement("Image", "rbxassetid://93393136491199"), {
+	local TitleIcon = SetProps(MakeElement("Image", "rbxassetid://105463672954601"), {
     Size = UDim2.new(0, 28, 0, 28),
     Position = UDim2.new(0, 12, 0.5, -14),
     ZIndex = 5,
