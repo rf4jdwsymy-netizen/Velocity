@@ -461,7 +461,7 @@ function OrionLib:MakeNotification(NotificationConfig)
 
 		local NotificationFrame = Create("ImageLabel", {
 			Parent = NotificationParent,
-			Image = "rbxassetid://77540846250098",
+			Image = "rbxassetid://86872235533383",
 			ScaleType = Enum.ScaleType.Crop,
 			ImageTransparency = 0.2,
 			BackgroundTransparency = 1,
@@ -736,7 +736,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		AddThemeObject(MakeElement("Stroke"), "Stroke")
 	})
 
-	local MainWindow = SetChildren(SetProps(MakeElement("RoundImageFrame", Color3.fromRGB(255, 255, 255), 0, 10, "rbxassetid://129099363794409"), {
+	local MainWindow = SetChildren(SetProps(MakeElement("RoundImageFrame", Color3.fromRGB(255, 255, 255), 0, 10, "rbxassetid://86872235533383"), {
 		Parent = Orion,
 		Position = UDim2.new(0.5, -307, 0.5, -172),
 		Size = UDim2.new(0, 615, 0, 344),
