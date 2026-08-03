@@ -690,13 +690,23 @@ function OrionLib:MakeWindow(WindowConfig)
 		Position = UDim2.new(0, 0, 1, -1)
 	}), "Stroke")
 
-	local MainWindow = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame", Color3.fromRGB(255, 255, 255), 0, 10), {
-		Parent = Orion,
-		Position = UDim2.new(0.5, -307, 0.5, -172),
-		Size = UDim2.new(0, 650, 0, 400),
-		BackgroundTransparency = 0.4,
-		ClipsDescendants = true
-	}), {
+SetChildren(SetProps(MakeElement("RoundFrame", Color3.fromRGB(255, 255, 255), 0, 10), {
+	Parent = Orion,
+	Position = UDim2.new(0.5, -307, 0.5, -172),
+	Size = UDim2.new(0, 650, 0, 400),
+	BackgroundTransparency = 0.4,
+	ClipsDescendants = true
+}), {
+	SetProps(MakeElement("ImageLabel"), {
+		Name = "Background",
+		BackgroundTransparency = 1,
+		Size = UDim2.new(1, 0, 1, 0),
+		Position = UDim2.new(0, 0, 0, 0),
+		Image = "rbxassetid://73755465835254", -- ←ここを変更
+		ImageTransparency = 0.2,
+		ScaleType = Enum.ScaleType.Crop,
+		ZIndex = 0
+	}),
 		--SetProps(MakeElement("Image", "rbxassetid://3523728077"), {
 		--	AnchorPoint = Vector2.new(0.5, 0.5),
 		--	Position = UDim2.new(0.5, 0, 0.5, 0),
