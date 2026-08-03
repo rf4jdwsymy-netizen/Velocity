@@ -699,7 +699,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		BackgroundTransparency = 0.85
 	}), "Second")
 
-	local TitleIcon = SetProps(MakeElement("Image", "rbxassetid://93393136491199"), {
+	local TitleIcon = SetProps(MakeElement("Image", "rbxassetid://127455404968369"), {
     Size = UDim2.new(0, 28, 0, 28),
     Position = UDim2.new(0, 12, 0.5, -14),
     ZIndex = 5,
@@ -738,7 +738,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		AddThemeObject(MakeElement("Stroke"), "Stroke")
 	})
 
-local MainWindow = SetChildren(SetProps(MakeElement("RoundImageFrame", Color3.fromRGB(255, 255, 255), 0.4, 10, ""), {
+local MainWindow = SetChildren(SetProps(MakeElement("RoundImageFrame", Color3.fromRGB(255, 255, 255), 0.4, 10, "rbxassetid://99741457528099"), {
     Parent = Orion,
     Position = UDim2.new(0.5, -307, 0.5, -172),
     Size = UDim2.new(0, 615, 0, 344),
