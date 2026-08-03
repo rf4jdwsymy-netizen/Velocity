@@ -741,7 +741,8 @@ local MainWindow = SetChildren(SetProps(MakeElement("RoundImageFrame", Color3.fr
     Position = UDim2.new(0.5, -307, 0.5, -172),
     Size = UDim2.new(0, 615, 0, 344),
     ClipsDescendants = true,
-    BackgroundTransparency = 0.5
+    BackgroundTransparency = 0.5   
+}), {
 		SetChildren(SetProps(MakeElement("TFrame"), {
 			Size = UDim2.new(1, 0, 0, 50),
 			Name = "TopBar"
