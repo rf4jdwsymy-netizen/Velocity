@@ -15,7 +15,7 @@ local OrionLib = {
 		Default = {
 			Main = Color3.fromRGB(0, 0, 0),
 			Second = Color3.fromRGB(12, 12, 12),
-			Stroke = Color3.fromRGB(0, 0, 0),
+			Stroke = Color3.fromRGB(255, 255, 0),
 			Divider = Color3.fromRGB(45, 45, 45),
 			Text = Color3.fromRGB(255, 255, 255),
 			TextDark = Color3.fromRGB(170, 170, 170)
@@ -461,7 +461,7 @@ function OrionLib:MakeNotification(NotificationConfig)
 
 		local NotificationFrame = Create("ImageLabel", {
 			Parent = NotificationParent,
-			Image = "rbxassetid://86872235533383",
+			Image = "rbxassetid://129099363794409",
 			ScaleType = Enum.ScaleType.Crop,
 			ImageTransparency = 0.2,
 			BackgroundTransparency = 1,
@@ -697,7 +697,7 @@ function OrionLib:MakeWindow(WindowConfig)
 		BackgroundTransparency = 0.85
 	}), "Second")
 
-	local TitleIcon = SetProps(MakeElement("Image", "rbxassetid://105463672954601"), {
+	local TitleIcon = SetProps(MakeElement("Image", "rbxassetid://93393136491199"), {
     Size = UDim2.new(0, 28, 0, 28),
     Position = UDim2.new(0, 12, 0.5, -14),
     ZIndex = 5,
@@ -736,12 +736,13 @@ function OrionLib:MakeWindow(WindowConfig)
 		AddThemeObject(MakeElement("Stroke"), "Stroke")
 	})
 
-	local MainWindow = SetChildren(SetProps(MakeElement("RoundImageFrame", Color3.fromRGB(255, 255, 255), 0, 10, "rbxassetid://86872235533383"), {
+	local MainWindow = SetChildren(SetProps(MakeElement("RoundImageFrame", Color3.fromRGB(255, 255, 255), 0, 10, "rbxassetid://129099363794409"), {
 		Parent = Orion,
 		Position = UDim2.new(0.5, -307, 0.5, -172),
 		Size = UDim2.new(0, 615, 0, 344),
 		ClipsDescendants = true
 	}), {
+	    BackgroundTransparency = 0.5
 		SetChildren(SetProps(MakeElement("TFrame"), {
 			Size = UDim2.new(1, 0, 0, 50),
 			Name = "TopBar"
